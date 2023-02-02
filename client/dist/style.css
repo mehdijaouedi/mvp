@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Francois+One|PT+Serif:400,400i,700,700i");
+
+body {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, #200244, #0a0a0a);
+    
+   
+    color: rgb(244, 241, 241);
+    width: 100%;
+    background-size: cover;
+    font-family: Arial;
+  margin: 0 auto; 
+  max-width: 800px; 
+  padding: 20px;
+}
+.title{
+  color: #007eb4;
+  size: 20px;
+}
+.details{
+  color: #f3e9e9;
+  margin-left: 40px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.4em;
+  border-radius: 15px;
+  font-family: "PT Serif", sans-serif;
+  color: #ecf0f1;
+  background-color: #9b1c0d;
+}
+input,textarea{
+    cursor: text;
+    border:groove ;
+    font-size: 1.7em;
+    border-radius: 15px;
+    font-family: "PT Serif", sans-serif;
+    color: #00090b;
+    background-color: #e3d6d6; 
+}
+.container{
+  text-align: center;
+   background: rgba(119, 178, 230, 0.5);
+   backdrop-filter: blur(50px);
+   border-radius: 8px;
+   padding: 10px;
+   cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px; cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px;
+}
+.logo {
+  cursor: pointer;
+  color : #ffaef2;
+  background-Color : #2b1f41;
+  width: 100% ;
+  font-family:"Cursive";
+}
+.login{
+    text-align: center;
+   background: rgba(119, 178, 230, 0.5);
+   backdrop-filter: blur(50px);
+   border-radius: 8px;
+   padding: 10px;
+   cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px; cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px;
+}
+.textt{
+  cursor: pointer;
+  color :  #d7bfbc;
+ 
+  font-family:"Cursive"
+}
+
+
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(213, 201, 201, 0.2);
+}
